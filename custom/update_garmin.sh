@@ -6,7 +6,7 @@ set -euo pipefail
 # Usage:
 #   ./custom/update_garmin.sh
 #   ./custom/update_garmin.sh 35
-DAYS="${1:-10}"
+DAYS="${1:-35}"
 
 # Find repository root based on this script's location.
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
